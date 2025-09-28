@@ -94,7 +94,14 @@ def create_graph_through_time(station_id):
 
     plt.xticks(np.arange(1991, 2019 + 1, 5))
 
-    plt.legend(loc="upper right")
+    plt.legend(
+        loc="upper left",  # Anchor point within the bbox
+        bbox_to_anchor=(
+            1.01,
+            1,
+        ),  # Place the upper left corner of the legend at (1.01, 1.0) of the axes
+        fontsize=9,
+    )
     plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.tight_layout()
     plt.show()
