@@ -14,8 +14,8 @@ def station_summary(station_id):
         .sort_index()
         .loc["1991-01-01":"2019-12-31"]
     )
-    min_temp = station_data[station_data["ELEMENT"] == "TMIN"][["DATA_VALUE"]]
-    max_temp = station_data[station_data["ELEMENT"] == "TMAX"][["DATA_VALUE"]]
+    min_temp = station_data[station_data["ELEMENT"] == "TMIN"]["DATA_VALUE"]
+    max_temp = station_data[station_data["ELEMENT"] == "TMAX"]["DATA_VALUE"]
     min_temp = min_temp / 10
     max_temp = max_temp / 10
     output = pd.DataFrame(
