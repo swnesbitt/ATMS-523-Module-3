@@ -20,3 +20,5 @@ This repository contains the Jupyter Notebook **HW3.ipynb**, which focuses on pr
 Visualization is inspired by [Bokeh Weather Demo](https://demo.bokeh.org/weather),
 with code adapted from [Bokeh GitHub examples](https://github.com/bokeh/bokeh/tree/branch-3.9/examples/server/app/weather).
 
+## Demo
+<img src="demo.png" alt="Demo Plot" width="100%"/>
