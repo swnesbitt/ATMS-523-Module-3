@@ -6,7 +6,6 @@
 This notebook analyzes historical temperature data for a selected city using NOAA’s GHCN Daily dataset hosted on AWS. The goal is to:
 Calculate record and average high/low temperatures for the 1991–2020 climate normal period.
 Visualize how a specific year (2020) compares to those long-term trends using Matplotlib.
-This project is part of the ATMS 523 course and emphasizes reproducible, beginner-friendly workflows using open climate data.
 
 🧰 Tools & Libraries
 Python
