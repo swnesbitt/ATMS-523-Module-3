@@ -14,7 +14,7 @@ Matplotlib for visualization
 NOAA GHCN Daily data via AWS S3
 
 📈 What This Notebook Does
-Loads daily temperature data for a selected station (e.g., San Diego, CA: USW00093134)
+Loads daily temperature data for a selected station (e.g., Los Angeles, CA: USW00093134)
 Filters and processes data for:
 Record high/low temperatures (1991–2020)
 Average high/low temperatures (1991–2020)
